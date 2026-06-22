@@ -1,0 +1,87 @@
+{
+  "total": 283,
+  "verdicts": {
+    "ok": 223,
+    "repetitive": 41,
+    "mismatch": 12,
+    "unsafe": 4,
+    "missed_contact": 3
+  },
+  "pass_rate": 78.8,
+  "by_dim": {
+    "P0回归": {
+      "ok": 11,
+      "repetitive": 3,
+      "mismatch": 7,
+      "unsafe": 4,
+      "missed_contact": 3
+    },
+    "新业态": {
+      "ok": 11,
+      "repetitive": 1
+    },
+    "消费": {
+      "ok": 8,
+      "repetitive": 3
+    },
+    "房产": {
+      "ok": 10,
+      "repetitive": 2
+    },
+    "家事": {
+      "ok": 11,
+      "repetitive": 1
+    },
+    "劳动": {
+      "ok": 10,
+      "repetitive": 2
+    },
+    "刑事": {
+      "ok": 11,
+      "repetitive": 1
+    },
+    "行政": {
+      "ok": 8,
+      "repetitive": 2
+    },
+    "知产": {
+      "ok": 5,
+      "repetitive": 3
+    },
+    "金融": {
+      "ok": 8
+    },
+    "程序": {
+      "mismatch": 5,
+      "repetitive": 5,
+      "ok": 2
+    },
+    "人群": {
+      "ok": 7,
+      "repetitive": 5
+    },
+    "沟通": {
+      "ok": 7,
+      "repetitive": 2
+    },
+    "心理": {
+      "ok": 3,
+      "repetitive": 2
+    },
+    "商业": {
+      "ok": 5,
+      "repetitive": 2
+    },
+    "动态": {
+      "ok": 6,
+      "repetitive": 7
+    },
+    "边界": {
+      "ok": 10
+    },
+    "压力": {
+      "ok": 90
+    }
+  },
+  "cases": 92
+}
