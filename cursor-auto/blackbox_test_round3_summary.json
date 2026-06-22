@@ -1,0 +1,43 @@
+{
+  "total_turns": 291,
+  "verdicts": {
+    "ok": 244,
+    "repetitive": 41,
+    "missed_contact": 3,
+    "mismatch": 1,
+    "unsafe": 2
+  },
+  "by_suite": {
+    "夜间": {
+      "ok": 10,
+      "repetitive": 4,
+      "missed_contact": 3
+    },
+    "回访": {
+      "ok": 3,
+      "mismatch": 1
+    },
+    "并发": {
+      "ok": 151
+    },
+    "连发": {
+      "ok": 2,
+      "repetitive": 3
+    },
+    "API": {
+      "ok": 7
+    },
+    "LLM对比": {
+      "ok": 7
+    },
+    "深度": {
+      "ok": 63,
+      "repetitive": 34,
+      "unsafe": 2
+    },
+    "隔离": {
+      "ok": 1
+    }
+  },
+  "pass_rate": 83.8
+}
