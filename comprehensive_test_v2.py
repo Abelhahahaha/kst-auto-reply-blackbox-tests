@@ -6,6 +6,7 @@ V2版本相比V1增加: 30+ 测试类别, 覆盖更多边界场景
 """
 
 import json
+import os
 import time
 import concurrent.futures
 import threading
@@ -14,7 +15,7 @@ from typing import Any
 
 import requests
 
-BASE = "http://127.0.0.1:8765"
+BASE = os.environ.get("KST_BLACKBOX_BASE", "http://127.0.0.1:8766")
 RESULTS = []
 RESULTS_LOCK = threading.Lock()
 

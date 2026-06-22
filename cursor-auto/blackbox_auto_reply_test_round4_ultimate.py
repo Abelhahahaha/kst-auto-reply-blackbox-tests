@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -14,7 +15,7 @@ from typing import Any
 
 import requests
 
-BASE = "http://127.0.0.1:8765"
+BASE = os.environ.get("KST_BLACKBOX_BASE", "http://127.0.0.1:8766")
 TIMEOUT = 45
 OUT = "C:/Users/wupei/Desktop/测试622/cursor-auto/blackbox_test_round4_results.jsonl"
 OUT_SUMMARY = "C:/Users/wupei/Desktop/测试622/cursor-auto/blackbox_test_round4_summary.json"

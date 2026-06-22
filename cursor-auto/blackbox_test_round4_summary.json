@@ -1,80 +1,59 @@
 {
   "total": 283,
   "verdicts": {
-    "ok": 223,
-    "repetitive": 41,
-    "mismatch": 12,
-    "unsafe": 4,
-    "missed_contact": 3
+    "ok": 281,
+    "repetitive": 2
   },
-  "pass_rate": 78.8,
+  "pass_rate": 99.3,
   "by_dim": {
     "P0回归": {
-      "ok": 11,
-      "repetitive": 3,
-      "mismatch": 7,
-      "unsafe": 4,
-      "missed_contact": 3
+      "ok": 28
     },
     "新业态": {
-      "ok": 11,
-      "repetitive": 1
+      "ok": 12
     },
     "消费": {
-      "ok": 8,
-      "repetitive": 3
+      "ok": 11
     },
     "房产": {
-      "ok": 10,
-      "repetitive": 2
+      "ok": 12
     },
     "家事": {
-      "ok": 11,
-      "repetitive": 1
+      "ok": 12
     },
     "劳动": {
-      "ok": 10,
-      "repetitive": 2
+      "ok": 12
     },
     "刑事": {
-      "ok": 11,
-      "repetitive": 1
+      "ok": 12
     },
     "行政": {
-      "ok": 8,
-      "repetitive": 2
+      "ok": 10
     },
     "知产": {
-      "ok": 5,
-      "repetitive": 3
+      "ok": 8
     },
     "金融": {
       "ok": 8
     },
     "程序": {
-      "mismatch": 5,
-      "repetitive": 5,
-      "ok": 2
+      "ok": 12
     },
     "人群": {
-      "ok": 7,
-      "repetitive": 5
+      "ok": 12
     },
     "沟通": {
-      "ok": 7,
-      "repetitive": 2
+      "ok": 9
     },
     "心理": {
-      "ok": 3,
-      "repetitive": 2
+      "ok": 5
     },
     "商业": {
-      "ok": 5,
-      "repetitive": 2
+      "ok": 7
     },
     "动态": {
-      "ok": 6,
-      "repetitive": 7
+      "ok": 11,
+      "repetitive": 2
     },
     "边界": {
       "ok": 10
